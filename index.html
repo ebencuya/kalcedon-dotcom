@@ -13,10 +13,11 @@
     
     <style>
         :root {
-            --primary-color: #0d1117;
-            --secondary-color: #2d3748;
-            --accent-color: #1a365d;
-            --light-gray: #f8f9fa;
+            --primary-color: #1B4F4A;
+            --secondary-color: #0D2926;
+            --text-color: #2C2C2C;
+            --light-gray: #F5F5F5;
+            --medium-gray: #B8B8B8;
             --white: #ffffff;
             --transition: all 0.3s ease;
         }
@@ -31,8 +32,8 @@
             height: 100%;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
-            color: #ffffff;
-            background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+            color: var(--text-color);
+            background: var(--medium-gray);
             overflow-x: hidden;
         }
 
@@ -62,7 +63,7 @@
             width: 90%;
             text-align: center;
             padding: 2rem 1.5rem;
-            background: rgba(248, 250, 252, 0.95);
+            background: var(--light-gray);
             border-radius: 20px;
             box-shadow: 
                 0 25px 50px rgba(0, 0, 0, 0.3),
@@ -82,7 +83,7 @@
             font-weight: 700;
             margin-bottom: 0.5rem;
             line-height: 0.9;
-            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -102,7 +103,7 @@
 
         .description {
             font-size: clamp(1rem, 2.5vw, 1.125rem);
-            color: var(--secondary-color);
+            color: var(--text-color);
             margin-bottom: 3rem;
             max-width: 600px;
             margin-left: auto;
