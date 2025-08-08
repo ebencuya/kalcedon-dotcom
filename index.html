@@ -61,8 +61,8 @@
             max-width: 800px;
             width: 90%;
             text-align: center;
-            padding: 3rem 2rem;
-            background: rgba(255, 255, 255, 0.98);
+            padding: 2rem 1.5rem;
+            background: rgba(248, 250, 252, 0.95);
             border-radius: 20px;
             box-shadow: 
                 0 25px 50px rgba(0, 0, 0, 0.3),
@@ -76,16 +76,6 @@
             position: relative;
         }
 
-        .container::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-color), #2b77e4);
-            border-radius: 20px 20px 0 0;
-        }
 
         h1 {
             font-size: clamp(2.5rem, 5vw, 4rem);
@@ -95,7 +85,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            letter-spacing: -0.02em;
+            letter-spacing: -0.04em;
             opacity: 0;
             animation: fadeInUp 1s ease 0.3s forwards;
         }
