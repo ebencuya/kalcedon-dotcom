@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kalcedon Investments - Private real estate investment company investing as if our own retirement depends on it.">
-    <meta name="keywords" content="real estate investment, private investment, property investment, Kalcedon Investments">
+    <meta name="description" content="About the team at Kalcedon Investments - Meet the people behind our private real estate investment company.">
+    <meta name="keywords" content="Kalcedon Investments, team, about us, real estate investment">
     <meta name="author" content="Kalcedon Investments">
-    <meta property="og:title" content="Kalcedon Investments">
-    <meta property="og:description" content="Investing as if it's our money. Because it is.">
+    <meta property="og:title" content="About Us - Kalcedon Investments">
+    <meta property="og:description" content="Meet the team behind Kalcedon Investments.">
     <meta property="og:type" content="website">
-    <title>Kalcedon Investments</title>
-    
+    <title>About Us - Kalcedon Investments</title>
+
     <style>
         :root {
             --primary-color: #1B4F4A;
@@ -54,7 +54,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: 
+            background:
                 radial-gradient(circle at 20% 80%, rgba(26, 54, 93, 0.3) 0%, transparent 50%),
                 radial-gradient(circle at 80% 20%, rgba(26, 54, 93, 0.3) 0%, transparent 50%);
             z-index: -1;
@@ -67,7 +67,7 @@
             padding: 2rem 1.5rem;
             background: var(--light-gray);
             border-radius: 20px;
-            box-shadow: 
+            box-shadow:
                 0 25px 50px rgba(0, 0, 0, 0.3),
                 0 15px 30px rgba(0, 0, 0, 0.2),
                 inset 0 1px 0 rgba(255, 255, 255, 0.8);
@@ -79,46 +79,10 @@
             position: relative;
         }
 
-
-        h1 {
-            font-size: clamp(2.5rem, 5vw, 4rem);
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            line-height: 0.9;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: -0.04em;
-            opacity: 0;
-            animation: fadeInUp 1s ease 0.3s forwards;
-        }
-
-        .tagline {
-            font-size: clamp(1.25rem, 3vw, 1.5rem);
-            font-weight: 500;
-            color: var(--secondary-color);
-            margin-bottom: 2rem;
-            opacity: 0;
-            animation: fadeInUp 1s ease 0.5s forwards;
-        }
-
-        .description {
-            font-size: clamp(1rem, 2.5vw, 1.125rem);
-            color: var(--text-color);
-            margin-bottom: 3rem;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1.7;
-            opacity: 0;
-            animation: fadeInUp 1s ease 0.7s forwards;
-        }
-
         nav {
             margin-bottom: 2rem;
             opacity: 0;
-            animation: fadeInUp 1s ease 0.1s forwards;
+            animation: fadeInUp 1s ease 0.2s forwards;
         }
 
         nav a {
@@ -141,6 +105,57 @@
             margin: 0 1rem;
         }
 
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            line-height: 0.9;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -0.04em;
+            opacity: 0;
+            animation: fadeInUp 1s ease 0.3s forwards;
+        }
+
+        .subtitle {
+            font-size: clamp(1.25rem, 3vw, 1.5rem);
+            font-weight: 500;
+            color: var(--secondary-color);
+            margin-bottom: 2.5rem;
+            opacity: 0;
+            animation: fadeInUp 1s ease 0.5s forwards;
+        }
+
+        .team-member {
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0;
+            animation: fadeInUp 1s ease 0.7s forwards;
+        }
+
+        .team-member-name {
+            font-size: clamp(1.25rem, 3vw, 1.5rem);
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .team-member-title {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .team-member-bio {
+            font-size: clamp(1rem, 2.5vw, 1.125rem);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
         .copyright {
             font-size: 0.875rem;
             color: var(--secondary-color);
@@ -161,7 +176,7 @@
         @media (hover: hover) {
             .container:hover {
                 transform: translateY(-5px);
-                box-shadow: 
+                box-shadow:
                     0 35px 70px rgba(0, 0, 0, 0.4),
                     0 20px 40px rgba(0, 0, 0, 0.25),
                     inset 0 1px 0 rgba(255, 255, 255, 0.8);
@@ -180,11 +195,7 @@
                 margin-bottom: 1rem;
             }
 
-            .tagline {
-                margin-bottom: 1.5rem;
-            }
-
-            .description {
+            .subtitle {
                 margin-bottom: 2rem;
             }
         }
@@ -246,19 +257,24 @@
             <a href="about.html">About</a>
         </nav>
 
-            <h1>Kalcedon Investments</h1>
-            
-            <p class="tagline">
-                Investing as if it's our money. (Because it is).
+        <h1>Our Team</h1>
+
+        <p class="subtitle">The people behind Kalcedon Investments</p>
+
+        <div class="team-member">
+            <p class="team-member-name">Eliot Bencuya</p>
+            <p class="team-member-title">Founder</p>
+            <p class="team-member-bio">
+                Eliot Bencuya is the founder of Kalcedon Investments, where he specializes in identifying and executing sub-institutional value-add and structured finance commercial real estate investments. Operating across the United States with a historical focus on secondary markets, he participates across the capital stack as a GP, Co-GP, or LP alongside best-in-class local operators.
             </p>
-            
-            <p class="description">
-                We are a private real estate investment company, opportunistically investing as if our own retirement depends on it (Because it does).
+            <p class="team-member-bio" style="margin-top: 1rem;">
+                Before starting Kalcedon, Eliot co-founded Tryperion Holdings, where he remains a Senior Advisor. Prior to Tryperion, Eliot was Vice President at Canyon Capital Realty Advisors, where he was responsible for originating both debt and equity investments. Outside of his primary activities, he maintains a select portfolio of early-stage technology startup investments and is a part owner of Ascent CRE Management, a property management firm based in Salt Lake City. Eliot holds an MBA from the Haas School of Business at UC Berkeley and a B.A. in Economics and International Studies from Yale University.
             </p>
-            
-            <footer class="copyright">
-                © 2025
-            </footer>
+        </div>
+
+        <footer class="copyright">
+            &copy; 2025
+        </footer>
     </div>
 </body>
 </html>
